@@ -4,9 +4,9 @@
   align-items: center;
   text-align: center;
   font-style: normal;
-  color: var(--black);
+  color: rgb(var(--black));
   padding: 40px 0 137px;
-  border-top: 1px solid var(--grey-2);
+  border-top: 1px solid rgb(var(--grey-2));
 }
 .footer__title {
   font-weight: 500;

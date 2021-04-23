@@ -1,20 +1,20 @@
 @import '../fonts/fonts.css';
 
 :root {
-  --white: #ffffff;
-  --black: #212429;
-  --pink: #f784ad;
-  --purple: #7048e8;
-  --blue: #374fc7;
-  --red: #f03d3e;
-  --grey-1: #f8f9fa;
-  --grey-2: #dde2e5;
-  --grey-3: #acb5bd;
-  --grey-4: #495057;
+  --white: 255, 255, 255;
+  --black: 33, 36, 41;
+  --pink: 247, 132, 173;
+  --purple: 112, 72, 232;
+  --blue: 66, 99, 235;
+  --red: 240, 61, 62;
+  --grey-1: 248, 249, 250;
+  --grey-2: 221, 226, 229;
+  --grey-3: 172, 181, 189;
+  --grey-4: 73, 80, 87;
 
   --primary: var(--blue);
   --secondary: var(--purple);
-  --alternate: var(--pink);
+  --highlight: var(--pink);
 }
 
 * {

@@ -1,6 +1,6 @@
 .header {
   padding: 25px 0 47px;
-  border-bottom: 1px solid var(--grey-2);
+  border-bottom: 1px solid rgb(var(--grey-2));
 }
 .header__logo {
   display: inline-flex;
@@ -16,5 +16,5 @@
   font-weight: 500;
   font-size: 50px;
   line-height: 64px;
-  color: var(--black);
+  color: rgb(var(--black));
 }

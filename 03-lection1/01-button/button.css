@@ -1,1 +1,113 @@
 /* Стилизация кнопки */
+.buttons {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin: 139px;
+}
+.buttons__title {
+  font-family: 'Inter-Medium', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
+  justify-content: center;
+  color: rgb(var(--black));
+  width: 200px;
+}
+
+.buttons__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 16px 0 16px 40px;
+}
+
+.buttons__row .buttons__item {
+  margin-right: 33px;
+}
+
+.buttons__state {
+  font-family: 'Inter-Medium', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgb(var(--grey-3));
+  width: 90px;
+}
+
+.buttons__item {
+  border-radius: 8px;
+  height: 48px;
+  width: 189px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.buttons__item-primary,
+.buttons__item-secondary {
+  color: rgb(var(--white));
+  border: none;
+  cursor: pointer;
+}
+
+.buttons__item-primary:disabled,
+.buttons__item-secondary:disabled,
+.buttons__item-alternate:disabled {
+  cursor: default;
+}
+/* Primary */
+.buttons__item-primary {
+  background-color: rgb(var(--primary));
+}
+.buttons__row-hover .buttons__item-primary,
+.buttons__item-primary:hover {
+  background-color: rgb(35, 66, 192);
+}
+.buttons__item-primary:active {
+  background-color: rgb(27, 51, 145);
+}
+.buttons__item-primary:disabled {
+  background-color: rgba(var(--primary), 0.5);
+}
+/* Secondary */
+.buttons__item-secondary {
+  background-color: rgb(var(--secondary));
+}
+.buttons__row-hover .buttons__item-secondary,
+.buttons__item-secondary:hover {
+  background: rgb(80, 40, 198);
+}
+.buttons__item-secondary:active {
+  background: rgb(62, 32, 155);
+}
+.buttons__item-secondary:disabled {
+  background-color: rgba(var(--secondary), 0.5);
+}
+/* Alternate */
+.buttons__item-alternate {
+  background-color: rgb(var(--white));
+  color: rgb(var(--grey-4));
+  border: 1px solid rgb(var(--grey-3));
+  transition: opacity 200ms ease-in-out, border-color 200ms ease-in-out;
+}
+.buttons__row-hover .buttons__item-alternate,
+.buttons__item-alternate:hover {
+  border: 1px solid rgb(33, 36, 41);
+}
+.buttons__item-alternate:active {
+  border: 1px solid #0a0a0a;
+  color: rgb(var(--black));
+}
+.buttons__item-alternate:disabled {
+  color: rgba(var(--grey-4), 0.5);
+  border: 1px solid rgba(var(--grey-3), 0.5);
+}

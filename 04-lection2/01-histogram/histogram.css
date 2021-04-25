@@ -3,11 +3,8 @@
   border: 1px solid rgb(var(--grey-3));
   font-family: 'Inter-Medium', sans-serif;
   border-radius: 8px;
-  position: absolute;
   width: 354px;
   height: 185px;
-  left: 537px;
-  top: 529px;
   box-sizing: border-box;
 }
 .histogram__label {

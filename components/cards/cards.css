@@ -1,0 +1,37 @@
+.cards {
+  background-color: rgb(var(--grey-1));
+  padding-top: 68px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-gap: 30px;
+}
+
+.card {
+  height: 367px;
+  background: rgb(var(--white));
+  box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+  border-radius: 12px;
+  display: grid;
+  grid-template-rows: 1fr 80px;
+  align-items: center;
+  justify-items: center;
+}
+
+.card__capture {
+  text-align: center;
+}
+
+.card__capture > h2 {
+  margin: 0;
+}
+
+.card__capture > p {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(var(--grey-4));
+}
+
+.card__content > .histogram {
+  width: 300px;
+}

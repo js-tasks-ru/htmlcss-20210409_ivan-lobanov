@@ -1,0 +1,24 @@
+.header {
+  padding-top: 25px;
+  display: grid;
+  grid-template-rows: 34px auto auto;
+  grid-row-gap: 20px;
+  width: 100%;
+  border-bottom: 1px solid rgb(var(--grey-2));
+}
+.header__logo {
+  display: inline-flex;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header__title {
+  font-family: Inter-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 64px;
+  margin: 0;
+  color: rgb(var(--black));
+}

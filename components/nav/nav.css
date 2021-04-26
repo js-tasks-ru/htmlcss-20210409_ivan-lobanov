@@ -1,6 +1,6 @@
 .nav {
-  margin: 0 -12px;
   display: flex;
+  align-items: center;
 }
 .nav__item {
   text-decoration: none;
@@ -10,6 +10,10 @@
   line-height: 24px;
   color: rgb(var(--grey-3));
   margin: 0 12px;
+}
+
+.nav__item-icon {
+  line-height: normal;
 }
 
 .nav__item-active {
